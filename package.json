@@ -1,6 +1,6 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
-    "description": "#### test coverage for  [aliasify (v2.1.0)](https://github.com/benbria/aliasify#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-aliasify.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-aliasify) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-aliasify.svg)](https://travis-ci.org/npmtest/node-npmtest-aliasify)",
+    "description": "#### basic test coverage for  [aliasify (v2.1.0)](https://github.com/benbria/aliasify#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-aliasify.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-aliasify) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-aliasify.svg)](https://travis-ci.org/npmtest/node-npmtest-aliasify)",
     "devDependencies": {
         "aliasify": "*",
         "electron-lite": "kaizhu256/node-electron-lite#alpha",

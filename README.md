@@ -1,6 +1,6 @@
 # npmtest-aliasify
 
-#### test coverage for  [aliasify (v2.1.0)](https://github.com/benbria/aliasify#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-aliasify.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-aliasify) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-aliasify.svg)](https://travis-ci.org/npmtest/node-npmtest-aliasify)
+#### basic test coverage for  [aliasify (v2.1.0)](https://github.com/benbria/aliasify#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-aliasify.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-aliasify) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-aliasify.svg)](https://travis-ci.org/npmtest/node-npmtest-aliasify)
 
 #### Rewrite require calls in browserify modules.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-aliasify/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-aliasify/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-aliasify/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-aliasify/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-aliasify/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-aliasify/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-aliasify/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-aliasify/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-aliasify/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-aliasify/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-aliasify/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-aliasify/build/coverage.html/index.html)
 
@@ -98,7 +98,8 @@
         "prepublish": "coffee -c -o lib src && mocha test",
         "test": "mocha && istanbul report text-summary lcov"
     },
-    "version": "2.1.0"
+    "version": "2.1.0",
+    "bin": {}
 }
 ```
 
